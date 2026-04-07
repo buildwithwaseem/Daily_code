@@ -1,0 +1,33 @@
+Challenge 1
+Task: Take a list like [10, 20, 30, 40, 50] and transform it into [50, 40, 30, 20, 10].
+
+Constraint: You cannot create a new list. You must swap elements within the existing list.
+
+Mentor's Hint: Use two pointers—one at the start (i = 0) and one at the end (j = len(arr) - 1). Swap them and move towards the center. When do they stop?
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Challenge 2
+Task: Given a list nums = [4, 2, 7, 1, 9, 3] and a target = 7.
+Task: Return the index of the target. If it doesn't exist, return -1.
+Constraint: Do not use the in operator or .index(). Use a for loop. This is the foundation of $O(N)$ time complexity.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Challenge 3
+Task: Take [1, 2, 3, 4, 5] and turn it into [2, 3, 4, 5, 1].
+
+Constraint: Do not use .pop(0) or .append().
+
+Logic: Store the first element in a temporary variable. Use a loop to shift every other element one position to the left. Then, place the temporary variable at the last index.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Challenge 4
+Task: Find the "Peak Element" in a list. An element is a peak if it is greater than its neighbors.
+
+Example: In [1, 3, 20, 4, 1], the peak is 20 at index 2.
+
+The Trap: What happens if the peak is at the very first index or the very last index? Your logic must handle these "edge cases" without crashing with an IndexError
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
