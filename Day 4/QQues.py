@@ -24,8 +24,9 @@ for i in range(length // 2):
     if word[i] != word[length -1 -i]:
         is_palindrome = False
         break
-
+# palindrome
 if is_palindrome:
     print(f'{word} is palindrome')
 else:
     print(f'{word} is not a palindrome')
+    #jhjfhjjsdjlh
